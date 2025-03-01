@@ -2,7 +2,7 @@
 
 A simple, single-page todo list application built with .NET 8. No authentication required - just add, edit, and manage your tasks.
 
-![Tefa Todo List Screenshot](https://s6.imgcdn.dev/YhSwVK.png)
+![Tefa Todo List Screenshot](https://tefa.my.id/Tefa%20Todo%20List.png)
 
 ## Features
 
@@ -49,11 +49,13 @@ dotnet run
 The application will run at http://localhost:5173
 
 ## API Documentation
-For developers interested in integrating with our API, comprehensive documentation is available at:
+Tefa Todo List API documentation is available at:
 
-https://apidoc.tefa.my.id
+- **Swagger UI (Local)**: http://localhost:5173/swagger
+- **Postman Documentation (Public)**: https://apidoc.tefa.my.id
 
-The API documentation includes all endpoints, request/response formats, and examples to help you integrate with the Tefa Todo List application.
+The API documentation includes all endpoints, request/response formats, and examples in the Tefa Todo List application.
+
 ## Development
 Run in development mode with hot reload:
 ```bash
