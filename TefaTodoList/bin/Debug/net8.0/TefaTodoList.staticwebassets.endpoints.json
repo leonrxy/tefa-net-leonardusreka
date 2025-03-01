@@ -3,6 +3,51 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "js/todoList.8x3j9e3x76.js",
+      "AssetFile": "js/todoList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nKt7J/9ksIxOw9VNPp9ZY5VNjlqGmKCSWePmprEtYw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 10:15:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8x3j9e3x76"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nKt7J/9ksIxOw9VNPp9ZY5VNjlqGmKCSWePmprEtYw0="
+        },
+        {
+          "Name": "label",
+          "Value": "js/todoList.js"
+        }
+      ]
+    },
+    {
       "Route": "js/todoList.js",
       "AssetFile": "js/todoList.js",
       "Selectors": [],
@@ -17,7 +62,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3545"
+          "Value": "7645"
         },
         {
           "Name": "Content-Type",
@@ -25,62 +70,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=\""
+          "Value": "\"nKt7J/9ksIxOw9VNPp9ZY5VNjlqGmKCSWePmprEtYw0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 05:40:37 GMT"
+          "Value": "Sat, 01 Mar 2025 10:15:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44="
-        }
-      ]
-    },
-    {
-      "Route": "js/todoList.k0b7sdkar8.js",
-      "AssetFile": "js/todoList.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3545"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 05:40:37 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k0b7sdkar8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44="
-        },
-        {
-          "Name": "label",
-          "Value": "js/todoList.js"
+          "Value": "sha256-nKt7J/9ksIxOw9VNPp9ZY5VNjlqGmKCSWePmprEtYw0="
         }
       ]
     }

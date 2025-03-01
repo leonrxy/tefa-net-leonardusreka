@@ -532,3 +532,4 @@
 /home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/obj/Debug/net8.0/TefaTodoList.pdb
 /home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/obj/Debug/net8.0/TefaTodoList.genruntimeconfig.cache
 /home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/obj/Debug/net8.0/ref/TefaTodoList.dll
+/home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/obj/Debug/net8.0/TefaTodoList.sourcelink.json

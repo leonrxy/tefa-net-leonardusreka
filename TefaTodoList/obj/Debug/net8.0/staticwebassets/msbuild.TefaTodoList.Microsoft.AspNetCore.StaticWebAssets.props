@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>k0b7sdkar8</Fingerprint>
-      <Integrity>hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=</Integrity>
+      <Fingerprint>8x3j9e3x76</Fingerprint>
+      <Integrity>nKt7J/9ksIxOw9VNPp9ZY5VNjlqGmKCSWePmprEtYw0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\todoList.js'))</OriginalItemSpec>

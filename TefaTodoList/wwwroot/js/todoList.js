@@ -27,24 +27,37 @@ $(document).ready(function () {
     $("#loading").show();
     $("#emptyMessage").hide();
 
-    $.getJSON(apiUrl, function (data) {
+    $.getJSON(apiUrl, function (response) {
       $("#loading").hide();
-      let filteredData = data;
-      if (filter === "active") {
-        filteredData = data.filter((todo) => !todo.isComplete);
-        console.log(filteredData);
-      } else if (filter === "completed") {
-        filteredData = data.filter((todo) => todo.isComplete);
-      }
-      $("#todoCount").text(
-        `${filteredData.length} item${filteredData.length !== 1 ? "s" : ""}`
-      );
-      if (filteredData.length === 0) {
-        $("#emptyMessage").show();
+
+      // Pastikan respons berhasil dan data tersedia
+      if (response.status === "success" && response.data) {
+        let filteredData = response.data;
+
+        if (filter === "active") {
+          filteredData = response.data.filter((todo) => !todo.isComplete);
+          console.log(filteredData);
+        } else if (filter === "completed") {
+          filteredData = response.data.filter((todo) => todo.isComplete);
+        }
+
+        $("#todoCount").text(
+          `${filteredData.length} item${filteredData.length !== 1 ? "s" : ""}`
+        );
+
+        if (filteredData.length === 0) {
+          $("#emptyMessage").show();
+        } else {
+          filteredData.forEach((todo) => {
+            $("#todoItems").append(todoTemplate(todo));
+          });
+        }
       } else {
-        filteredData.forEach((todo) => {
-          $("#todoItems").append(todoTemplate(todo));
-        });
+        // Menangani kasus error atau data tidak tersedia
+        console.error("Error fetching data:", response.message);
+        $("#emptyMessage")
+          .text("Error: " + response.message)
+          .show();
       }
     });
   }
@@ -188,7 +201,8 @@ $(document).ready(function () {
     const id = $(this).data("id");
     const isComplete = $(this).data("complete");
 
-    $.getJSON(apiUrl + id, function (todo) {
+    $.getJSON(apiUrl + id, function (response) {
+      const todo = response.data;
       todo.isComplete = isComplete;
 
       $.ajax({
