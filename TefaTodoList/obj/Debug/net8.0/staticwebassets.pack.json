@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/wwwroot/js/todoList.js",
+      "PackagePath": "staticwebassets/js/todoList.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TefaTodoList.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TefaTodoList.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.TefaTodoList.props",
+      "PackagePath": "build\\TefaTodoList.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TefaTodoList.props",
+      "PackagePath": "buildMultiTargeting\\TefaTodoList.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TefaTodoList.props",
+      "PackagePath": "buildTransitive\\TefaTodoList.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

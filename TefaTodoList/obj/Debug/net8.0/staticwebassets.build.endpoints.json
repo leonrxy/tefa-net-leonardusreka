@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "js/todoList.js",
+      "AssetFile": "js/todoList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 05:40:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44="
+        }
+      ]
+    },
+    {
+      "Route": "js/todoList.k0b7sdkar8.js",
+      "AssetFile": "js/todoList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 05:40:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k0b7sdkar8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44="
+        },
+        {
+          "Name": "label",
+          "Value": "js/todoList.js"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "8NgsvtiZYvsG16oDUtyU9PvHzJFQHeEufPyl2QW6OdA=",
+  "Source": "TefaTodoList",
+  "BasePath": "_content/TefaTodoList",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TefaTodoList/wwwroot",
+      "Source": "TefaTodoList",
+      "ContentRoot": "/home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/wwwroot/",
+      "BasePath": "_content/TefaTodoList",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/wwwroot/js/todoList.js",
+      "SourceId": "TefaTodoList",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/wwwroot/",
+      "BasePath": "_content/TefaTodoList",
+      "RelativePath": "js/todoList#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k0b7sdkar8",
+      "Integrity": "hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/todoList.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "js/todoList.js",
+      "AssetFile": "/home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/wwwroot/js/todoList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 05:40:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44="
+        }
+      ]
+    },
+    {
+      "Route": "js/todoList.k0b7sdkar8.js",
+      "AssetFile": "/home/leonardusreka/Documents/projects/task-tefa-todolist/TefaTodoList/wwwroot/js/todoList.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 05:40:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k0b7sdkar8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/todoList.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOPzoMEsYvY8c3xffg/aHrNyarKli/+ycYMc00Q7Y44="
+        }
+      ]
+    }
+  ]
+}
